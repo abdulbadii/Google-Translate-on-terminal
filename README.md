@@ -20,12 +20,17 @@ e.g.
 gxl.js
 1: En regardant la terre sculptée sur le continent asiatique et la région asiatique européenne
 
-looking at the earth carved on the Asian continent and the European Asian region
 * In English:      (French - Detected - source)
+looking at the earth carved on the Asian continent and the European Asian region
+
 ```
 
 Append it with `=fr,de,es` in order to translate to French, Germany and Spanish, then the Default target language become Spanish, the last code specified   
-If append it with `=fr,de,es,` instead, it will translate to French, Germany, Spanish and English (the current target language)
-and the Default target language will not change
+If append it further with `,` a comma to become `=fr,de,es,` instead, it will translate to French, Germany, Spanish and English (the current target language)    
+and the Default target language will not change, keep being English   
 
-TO
+TODO: TOO MANY   
+at least:   
+- Find which input (prompt) method is better which can do like Bash or most shell prompt/readline can   
+- Find why it's significantly slower than real browser   
+- TTS (Text To Speech)  
