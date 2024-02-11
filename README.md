@@ -1,6 +1,6 @@
 # Google-Translate-on-terminal
 Have Google Translate service on a node js terminal, in non-GUI browser way, a.k.a text or headless browser.   
-No API nor restricting terms of condition at all involved     
+No API nor restricting terms of condition is involved at all     
 
 ### Requirement  
 - Node js  
@@ -10,7 +10,7 @@ No API nor restricting terms of condition at all involved
 ### Usage  
 Two mode:   
 - type or paste the source text as the script argument directly on shell prompt   
-- type or paste the source text after get the script running   
+- type or paste the source text in the script entry/prompt input after get it running   
 
 It defaults to translate to target language of English   
 Append source text with string `=<language code>,...` in order to translate to other(s)  
