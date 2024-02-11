@@ -308,7 +308,7 @@ let
 len = process.argv.length,
 cl = process.argv.slice(2).join(' '),
 tl;
-if (t = cl.match(/^(.+?)\s+=((?:,?[a-z]{2})+)\s*$/)) {
+if (t = cl.match(/^(.+?)\s+=((?:,?[a-z]{2})+,?)\s*$/)) {
  cl = t[1];
  tl = t[2]
 }
